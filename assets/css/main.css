@@ -1,0 +1,55 @@
+
+body{
+	box-sizing: border-box;
+	margin: 0;
+	color: #fff;
+	background-image: url(../img/color.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.cont1{
+	margin-left: 120px;
+}
+
+.cont1 ul li a, #validacion{
+	color: #fff;
+}
+
+.dropdown-menu,.nav.open a,.nav .open a:focus,.nav .open a:hover{
+	background-color: #571880;
+}
+.nav li a:hover{
+	background-color: transparent;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-size: 70px;
+}
+.form-group input, .btn{
+	background-color: transparent;
+	padding: 25px;
+	border: 1px solid #fff;
+}
+.btn{
+	width: 100%;
+	padding: 15px;
+	margin: 20px 0;
+    font-weight: bold;
+}
+.fa{
+    font-size: 30px;
+}
+  footer{
+  	padding-top: 10px;
+    border-top: 1px solid #fff;
+    margin-top: 50px;
+  }
+
+/*Drag- Drop*/
+
+img{
+	width: 200px;
+}
