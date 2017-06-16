@@ -50,6 +50,24 @@ h1{
 
 /*Drag- Drop*/
 
+.barra{
+	background-color: #000;
+	color: blue;
+	padding: 10px;
+}
+.col-xs-6{
+   padding: 0;
+}
+.cajas1, .caja2{
+	height: 20vh;
+	background-color: #299980;
+	padding-top: 10px;
+
+}
+.caja2{
+	background-color: #1b3981;
+}
 img{
-	width: 200px;
+	width: 98%;
+	height: 17vh;
 }

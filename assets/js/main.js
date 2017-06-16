@@ -1,7 +1,7 @@
 /* Validación formulario*/
 
 function validar(){
-
+    
 	var email = document.getElementById("mail").value;
     var pw= document.getElementById("pass").value;
 
@@ -21,18 +21,18 @@ function validar(){
 /* Drag -Drop*/
 
 function drag(ev){
-	ev.dataTransfer.setData("text", ev.target.id);
+  ev.dataTransfer.setData("text", ev.target.id);
 }
 
 
 function finalDrop(ev){
-	ev.preventDefault();
+  ev.preventDefault();
 }
 
 
 function drop(ev){
-	ev.preventDefault();
+  ev.preventDefault();
 
-	var dato = ev.dataTransfer.getData("text");
-	ev.target.appendChild(document.getElementById(dato));
+  var dato = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(dato));
 }
